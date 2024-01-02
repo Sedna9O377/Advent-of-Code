@@ -60,8 +60,6 @@ for line in file:
     result += power
 print(result)
 
-len(file.)
-
 file.close()
 
 
