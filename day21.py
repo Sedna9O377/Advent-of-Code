@@ -2,7 +2,7 @@
 LINE_LENGTH = 131
 S_LOCATION = 65
 
-file = (open('input.txt', 'r'))
+file = (open('input/day2.txt', 'r'))
 content = file.readlines()
 
 start = [[S_LOCATION, S_LOCATION]]
