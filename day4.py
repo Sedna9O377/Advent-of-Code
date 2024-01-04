@@ -2,7 +2,7 @@ import re
 
 suma = 0
 
-with open("input/day4.txt") as file:
+with open("input (1).txt") as file:
     for line in file:
         start = line.index(":")
         line = line[start+2:]
@@ -30,10 +30,11 @@ print(suma)
 
 # part 2
 
-file = open("input/day4.txt", "r")
+file = open("input (1).txt", "r")
 
 cards = file.readlines()
-LAST_CARD = 219
+LAST_CARD = 187
+
 
 amounts = {}
 for i in range(0, LAST_CARD):

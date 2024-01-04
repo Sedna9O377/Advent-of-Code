@@ -61,8 +61,3 @@ for line in file:
 print(result)
 
 file.close()
-
-
-
-
-nums = line.split("")
